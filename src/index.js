@@ -6,6 +6,9 @@
  * @license     {@link }
  */
 var mainClass = require('./MainClass');
+var gsap = require('gsap');
+console.log(gsap);
+
 global.MainClass = mainClass;
 
 module.exports = mainClass;
