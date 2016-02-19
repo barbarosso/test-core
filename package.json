@@ -8,7 +8,8 @@
     "url": "https://github.com/barbarosso/test-core.git"
   },
   "scripts": {
-    "watch-js": "watchify ./src/index.js -o ./bin/js/bundle.js -dv --ignore-watch=GLOB",
+    "watch-js": "watchify ./src/index.js -o ./bin/js/test-core.js -dv --ignore-watch=GLOB --no-bundle-external",
+    "build-libs": "browserify -r signals > ./bin/js/libs.js",
     "test": "mochify --watch --recursive --reporter spec"
   },
   "author": "",
