@@ -6,8 +6,6 @@
  * @license     {@link }
  */
 var mainClass = require('./MainClass');
-var signals = require('signals');
-console.log(signals);
 
 global.MainClass = mainClass;
 
