@@ -8,7 +8,10 @@
 
 
 var Signal = require('signals').Signal;
-console.log(Signal);
+console.log("coreSignal: " + Signal);
+
+var gsap = require("gsap");
+console.log("coreGsap: " + gsap);
 
 var mainCore = require('./MainCore');
 
