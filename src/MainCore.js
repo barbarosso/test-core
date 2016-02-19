@@ -6,11 +6,11 @@
  * @license     {@link }
  */
 
-function MainClass() {
+function MainCore() {
 
 }
 
-Object.defineProperties(MainClass.prototype, {
+Object.defineProperties(MainCore.prototype, {
     events: {
         get: function () {
             return 'events';
@@ -23,4 +23,4 @@ Object.defineProperties(MainClass.prototype, {
     }
 });
 
-module.exports =  MainClass;
+module.exports =  MainCore;

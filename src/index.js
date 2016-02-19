@@ -5,8 +5,13 @@
  * @copyright   2013-2016
  * @license     {@link }
  */
-var mainClass = require('./MainClass');
 
-global.MainClass = mainClass;
 
-module.exports = mainClass;
+var Signal = require('signals').Signal;
+console.log(Signal);
+
+var mainCore = require('./MainCore');
+
+global.MainCore = mainCore;
+
+module.exports = mainCore;
